@@ -51,7 +51,6 @@ function nextMusic(){
   //if musicIndex is greater than array length then musicIndex will be 1 so the first music play
   musicIndex > allMusic.length ? musicIndex = 1 : musicIndex = musicIndex;
   loadMusic(musicIndex);
-  playMusic();
   playingSong(); 
 }
 // play or pause button event
