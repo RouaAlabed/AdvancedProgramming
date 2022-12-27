@@ -7,6 +7,11 @@
   <title>Music Player | Ruya Alabed</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="icon" href="./programmericon.png">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="sw" href="./sw.js">
+  <link rel="music-list" href="./music-list.js">
+  <link rel="script" href="./script.js">
   
 </head>
 <body>
@@ -56,6 +61,9 @@
   </div>
   <script src="music-list.js"></script>
   <script src="script.js"></script>
+  <script>
+    navigator.serviceWorker.register('./sw.js')
   
+  </script>
 </body>
 </html>
