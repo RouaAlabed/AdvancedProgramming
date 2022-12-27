@@ -1,8 +1,8 @@
 {
     "name": "Sample JavaScript",
     "short_name": "Sample JS",
-    "theme_color": "#E53712",
-    "background_color": "#E53712",
+    "theme_color": "#515C6F",
+    "background_color": "#515C6F",
     "display": "standalone",
     "orientation": "portrait",
     "scope": "/",
