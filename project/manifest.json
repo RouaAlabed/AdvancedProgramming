@@ -1,0 +1,36 @@
+{
+    "name": "Sample JavaScript",
+    "short_name": "Sample JS",
+    "theme_color": "#E53712",
+    "background_color": "#E53712",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "./MusicPlayer.html",
+    "icons": [
+        {
+            "src": "icons/sample1.png",
+            "sizes": "75x75",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/sample2.png",
+            "sizes": "75x75",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/sample3.png",
+            "sizes": "75x75",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/sample4.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}
