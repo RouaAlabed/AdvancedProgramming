@@ -1,19 +1,20 @@
+
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Music Player | Ruya Alabed</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="icon" href="./programmericon.png">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
   <link rel="manifest" href="./manifest.json">
-  <link rel="sw" href="./sw.js">
-  <link rel="music-list" href="./music-list.js">
-  <link rel="script" href="./script.js">
-  
+
+
 </head>
+
 <body>
   <div class="wrapper">
     <div class="top-bar">
@@ -49,13 +50,13 @@
     <div class="music-list">
       <div class="header">
         <div class="row">
-          <i class= "list material-icons">queue_music</i>
+          <i class="list material-icons">queue_music</i>
           <span>Music list</span>
         </div>
         <i id="close" class="material-icons">close</i>
       </div>
       <ul>
-       
+
       </ul>
     </div>
   </div>
@@ -63,7 +64,13 @@
   <script src="script.js"></script>
   <script>
     navigator.serviceWorker.register('./sw.js')
-  
+
   </script>
+
 </body>
+<script rel="manifest" href="./manifest.json"></script>
+<script rel="sw" href="./sw.js"></script>
+<script rel="music-list" href="./music-list.js"></script>
+<script rel="script" href="./script.js"></script>
+
 </html>
