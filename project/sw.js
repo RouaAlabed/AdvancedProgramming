@@ -1,5 +1,5 @@
 const CACHE ='AP22'
-const FILES = ['./MusicPlayer.html', './manifest.json']
+const FILES = ['./MusicPlayer.html,./style.css ,./music-list.js,./script.js,./manifest.json']
 function installCB(e) {
   e.waitUntil(
     caches.open(CACHE)
