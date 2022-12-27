@@ -64,12 +64,12 @@ playPauseBtn.addEventListener("click", ()=>{
 //prev music button event
 prevBtn.addEventListener("click", ()=>{
   prevMusic();
-   pauseMusic();
+  
 });
 //next music button event
 nextBtn.addEventListener("click", ()=>{
   nextMusic();
-   pauseMusic();
+ 
 });
 // update progress bar width according to music current time
 mainAudio.addEventListener("timeupdate", (e)=>{
