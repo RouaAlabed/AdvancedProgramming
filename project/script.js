@@ -11,6 +11,7 @@ progressBar = progressArea.querySelector(".progress-bar"),
 musicList = wrapper.querySelector(".music-list"),
 moreMusicBtn = wrapper.querySelector("#more-music"),
 closemoreMusic = musicList.querySelector("#close");
+
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
 isMusicPaused = true;
 window.addEventListener("load", ()=>{
@@ -63,10 +64,13 @@ playPauseBtn.addEventListener("click", ()=>{
 //prev music button event
 prevBtn.addEventListener("click", ()=>{
   prevMusic();
+ 
 });
 //next music button event
 nextBtn.addEventListener("click", ()=>{
   nextMusic();
+ 
+  
 });
 // update progress bar width according to music current time
 mainAudio.addEventListener("timeupdate", (e)=>{
